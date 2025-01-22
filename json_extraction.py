@@ -85,8 +85,6 @@ for stat in json_data["stats"]:
         print(stat["base_stat"])
 
 
-
-
 #10. List All Abilities of a Pokémon
 #response = requests.get("https://pokeapi.co/api/v2/pokemon/ditto")
 json_data = response.json()
